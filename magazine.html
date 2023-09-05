@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Magazine</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230904134340">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">Fyrre magazine</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<span class="menu__link menu__link_current">
+									Magazine
+								</span>
+							</li>
+							<li class="menu__item">
+								<a href="podcast.html" class="menu__link">
+									Podcast
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="authors.html" class="menu__link">
+									Authors
+								</a>
+							</li>
+						</ul>
+						<span class="menu__divider"></span>
+						<ul class="menu__social social">
+							<li class="social__item">
+								<a href="#" class="social__link _icon-instagram" aria-label="Our Instagram account"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-twitter" aria-label="Our Twitter account"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-youtube" aria-label="Our YouTube channel"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-rss" aria-label="RSS"></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<button type="button" class="header__color-theme color-theme" aria-label="Change the color theme of the site"></button>
+					<button type="button" class="menu__icon icon-menu" aria-label="Open the menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="magazine">
+			<section class="magazine__catalog catalog-magazine">
+				<div class="catalog-magazine__container">
+					<h1 class="catalog-magazine__title title">Magazine</h1>
+					<div class="catalog-magazine__body">
+						<nav class="catalog-magazine__navigation">
+							<div class="catalog-magazine__label label">Categories</div>
+							<div class="catalog-magazine__buttons">
+								<button data-filter="*" class="catalog-magazine__category category active">All</button>
+								<button data-filter=".art" class="catalog-magazine__category category">Art</button>
+								<button data-filter=".street-art" class="catalog-magazine__category category">Street art</button>
+								<button data-filter=".sculptures" class="catalog-magazine__category category">Sculptures</button>
+							</div>
+						</nav>
+						<div data-iso-items class="catalog-magazine__items">
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-1.webp" type="image/webp"><img src="img/magazine/article-1.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Hope dies last</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-2.webp" type="image/webp"><img src="img/magazine/article-2.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Don’t close your eyes</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical sculptures">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Sculptures</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-3.webp" type="image/webp"><img src="img/magazine/article-3.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">The best art museums</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-4.webp" type="image/webp"><img src="img/magazine/article-4.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">The devil is the details</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-5.webp" type="image/webp"><img src="img/magazine/article-5.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">An indestructible hope</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical street-art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Street art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-6.webp" type="image/webp"><img src="img/magazine/article-6.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Street art festival</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical sculptures">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Sculptures</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-7.webp" type="image/webp"><img src="img/magazine/article-7.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">The chains of our lives</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-8.webp" type="image/webp"><img src="img/magazine/article-8.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Through the eyes of street artists</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam quae illum numquam!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical street-art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Street art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-9.webp" type="image/webp"><img src="img/magazine/article-9.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Artists who want to rise above</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odit eum, laboriosam doloremque laudantium saepe molestias vel fugit illo necessitatibus aliquid ex dignissimos enim ab nesciunt fugiat quas, accusantium commodi!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-10.webp" type="image/webp"><img src="img/magazine/article-10.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Secret garden</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-11.webp" type="image/webp"><img src="img/magazine/article-11.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Getting real</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical street-art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Street art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-12.webp" type="image/webp"><img src="img/magazine/article-12.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Most coloful places</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical street-art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Street art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-13.webp" type="image/webp"><img src="img/magazine/article-13.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Keep on Smiling</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-14.webp" type="image/webp"><img src="img/magazine/article-14.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">History of Paper</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical sculptures">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Sculptures</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-15.webp" type="image/webp"><img src="img/magazine/article-15.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">How are you, really?</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-16.webp" type="image/webp"><img src="img/magazine/article-16.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Beauty of Colors</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical art">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Art</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-17.webp" type="image/webp"><img src="img/magazine/article-17.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Colorful Future</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-iso-item class="catalog-magazine__item item-article item-article_vertical sculptures">
+								<div class="item-article__top">
+									<div class="info-article__date">
+										<span>Date</span> 16 March 2022
+									</div>
+									<div class="info-article__category category">Sculptures</div>
+								</div>
+								<a href="article.html" class="item-article__image-ibg" aria-label="Image link to article">
+									<picture><source srcset="img/magazine/article-18.webp" type="image/webp"><img src="img/magazine/article-18.jpg" alt="Cover of the article"></picture>
+								</a>
+								<div class="item-article__body">
+									<h3 class="item-article__title">
+										<a href="article.html" class="item-article__title-link title-link">Only in Your Heart</a>
+									</h3>
+									<div class="item-article__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere quibusdam
+											eum id repudiandae esse magni beatae repellendus, quasi rerum sequi illo laboriosam
+											quae illum numquam iste harum, dolorem veritatis!
+										</p>
+									</div>
+									<div class="item-article__info info-article">
+										<div class="info-article__info-main">
+											<div class="info-article__author">
+												<span>Author</span> Jacob Gronberg
+											</div>
+											<div class="info-article__duration">
+												<span>Read</span> 1 Min
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__news-line news">
+				<div class="news__slider swiper">
+					<div class="news__wrapper swiper-wrapper">
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+						<div class="news__slide swiper-slide">
+							<div class="news__text">Newsletter +++
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__newsletter-block newsletter-block">
+						<div class="newsletter-block__title">Design News to your inbox</div>
+						<div class="newsletter-block__form-block">
+							<form data-dev data-popup-message="#newsletter-popup" action="#" class="newsletter-block__form">
+								<input data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Email" class="newsletter-block__input input">
+								<button type="submit" class="newsletter-block__button button">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copy">© Made by Pawel Gola</div>
+					<button data-goto-speed="1000" data-goto="main" class="footer__go-top _icon-arrow-small">Go to top</button>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="newsletter-popup" aria-hidden="true" class="newsletter-popup popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="newsletter-popup__top">
+					<button data-close type="button" class="popup__close newsletter-popup__close">
+						<img src="img/frontpage/cross.svg" alt="">
+					</button>
+				</div>
+				<div class="newsletter-popup__body">
+					<div class="newsletter-popup__title">
+						Thank you for subscribing!
+					</div>
+					<div class="newsletter-popup__text">
+						<p>
+							From now on, you’ll be the first to know about our news.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230904134340"></script>
+</body>
+
+</html>
